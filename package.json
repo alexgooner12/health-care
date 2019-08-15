@@ -2,7 +2,7 @@
   "name": "health-care-international",
   "version": "1.0.0",
   "description": "Landing page for Health Care International",
-  "homepage":"https://github.com/alexgooner12/health-care-site/index.html",
+  "homepage":"https://github.com/alexgooner12/health-care/index.html",
   "main": "index.js",
   "scripts": {
     "start": "gulp"
