@@ -1,0 +1,41 @@
+.mobile-overlay {
+    min-height: 100%;
+    width: 0;
+    position: absolute;
+    z-index: 5;
+    top: 14rem;
+    left: 0;
+    background-color: $color-navy-blue;    
+    overflow-x: hidden;
+    transition: 0.3s;
+    display: flex;
+    align-items: baseline;
+     
+    &__content {
+        margin-left: 15%;
+        margin-top: 10%;
+        width: 100%;
+        height: 100%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: space-evenly;
+        
+        
+        .social-nav {
+            margin-top: 2rem;
+        }
+    }
+
+    &__link {
+        padding: .5rem 0;
+        text-decoration: none;
+        font-size: 5rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s;
+        font-size: 2rem;
+    }
+}
+

@@ -1,0 +1,22 @@
+.footer {
+    background: #fbfbfb;
+    border-top: 1px solid #e4e3e3;
+    
+    & .container {
+        height: 8rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    &__text {
+        font-size: 1.4rem;
+        color: rgb(128, 139, 155);
+        font-weight: 700;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: $color-primary;
+    }
+}

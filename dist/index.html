@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="A place which cares about your health. Gives you running momentum.">
+    <title>Healt Care International</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    
+     <header class="header">
+        <div class="container">
+            <div class="logo-box">
+                <img src="img/Logo.png" alt="Company logo" class="logo-box__img">
+                <h1 class="heading-primary">Health Care <span class="heading-primary__body">International</span></h1>
+            </div>
+                        
+            <nav role="navigation" class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a href="index.html" class="navigation__link navigation__link--active">What we do</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link">About</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link">Pricing</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <button onclick="toggleNav()" class="button navigation__toggler">
+                <img src="img/hamburger.png" alt="hamburger icon">
+            </button>
+            
+        </div>
+     </header>
+     
+     
+     <!-- MOBILE - NAVIGATION -->
+     
+    <div id="myNav" class="mobile-overlay">
+      <div class="mobile-overlay__content">
+        <a href="#" class="mobile-overlay__link">What we do</a>
+        <a href="#" class="mobile-overlay__link">About</a>
+        <a href="#" class="mobile-overlay__link">Pricing</a>
+        <a href="#" class="mobile-overlay__link">Contact</a>
+        <nav class="social-nav">
+            <ul class="social-nav__list">
+                <li class="social-nav__item">
+                    <a href="#" class="social-nav__link">
+                        <i class="social-nav__icon">
+                            <img src="img/Facebook%20icon.png" alt="Facebook icon">
+                        </i>
+                    </a>
+                </li>
+                <li class="social-nav__item">
+                    <a href="#" class="social-nav__link">
+                        <i class="social-nav__icon">
+                            <img src="img/Twitter%20icon.png" alt="Twitter icon">
+                        </i>
+                    </a>
+                </li>
+                <li class="social-nav__item">
+                    <a href="#" class="social-nav__link">
+                        <i class="social-nav__icon">
+                            <img src="img/Youtube%20icon.png" alt="Youtube icon">
+                        </i>
+                    </a>
+                </li>
+             </ul>
+        </nav>
+      </div>
+    </div>
+    
+    <!-- HERO - SECTION -->
+    
+     <section class="hero" role="banner">
+         <div class="container overlay">
+             <h1 class="heading-primary heading-primary--hero">Lorem ipsum dolor sit amet, <span
+     class="heading-primary__body heading-primary__body--hero">consectetur adipisicing elit</span>
+             </h1>
+             <div class="button-box">
+                 <button class="button button--primary">Sign up now <img src="img/right%20arrow.png" alt="arrow pointing to the right" class="button__img button-img--hero"></button>
+             </div>
+         </div>
+     </section>
+     
+    <!-- MAIN -->
+
+     
+     <main role="main">  
+            <!-- CONTENT - SECTION -->
+
+             <section class="content">
+                 <div class="container">
+                     <h2 class="heading-secondary margin-top-medium margin-bottom-small">I am page heading</h2>
+                     <p class="content__text margin-bottom-small">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea comodo consequat. <strong>Duis autem vel eum</strong> iruire dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accusman et iusto oddio dignissim qui blandit praesent luptatum zzril delenit auque duis dolore te feugait nulla facilisi.</p>
+
+                     <ul class="content__list margin-bottom-small">
+                         <li class="content__item">Duis autem vel eum iruire dolor in hendrerit</li>
+                         <li class="content__item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci.</li>
+                         <li class="content__item">Libh euismod tincidunt ut laoreet dolore</li>
+                     </ul>
+                     
+                     <section class="content margin-bottom-big">
+                         <h4 class="heading-quaternary margin-bottom-small">I am page subheading</h4>
+                         <p class="content__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est ex expedita distinction. Nam libero tempore, cum soluta nobis est eligendi option cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+                         <p class="content__text margin-top-small">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandar. Itaque earum rerum his tenetur a sapiente delectuc, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+                     </section>
+                 </div>
+             </section>
+            
+            <!-- CAROUSEL - SECTION -->
+            
+            <section class="carousel template">
+                <div class="mySlides fade">
+                    <img srcset="img/star%20burst.png 1x, img/star%20burst300.png 2x" alt="green star light background" class="carousel__img">
+                    <div class="carousel__text-box">
+                        <h3 class="heading-tertiary">Itaque earum rerum hic tenetur</h3>
+                        <p class="carousel__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui<br> blanditiis praesentium voluptatum deleniti atque corrupti</p>
+                    </div>
+                </div>
+
+                <div class="mySlides fade template">
+                    <img srcset="img/circles.png 1x, img/circles300.png 2x" alt="green background with circles" class="carousel__img">
+                    <div class="carousel__text-box">
+                        <h3 class="heading-tertiary">Num libero tempore, cum soluta</h3>
+                        <p class="carousel__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Vestibulum in urna quis neque porttitor sagittis.</p>
+                    </div>
+                </div>
+                
+                <div class="mySlides fade">
+                    <img srcset="img/green%20ocean.png 1x, img/green%20ocean300.png 2x" alt="green background with water drops" class="carousel__img">
+                    <div class="carousel__text-box">
+                        <h3 class="heading-tertiary">Itaque earum rerum hic tenetur</h3>
+                        <p class="carousel__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem <br> accusantium doloremque laudantium.</p>
+                    </div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">
+                    <img src="img/left%20arrow.png" alt="arrow pointing to the left">
+                </a>
+                <a class="next" onclick="plusSlides(1)">
+                    <img src="img/right%20arrow.png" alt="arrow pointing to the right">
+                </a>
+
+                <div class="button-box--carousel">
+                    <button class="button button--secondary">Contact us <img src="img/right%20arrow.png" alt="arrow pointing to the right" class="button__img"></button>
+                </div>
+            </section>
+
+            <!-- NEWS - SECTION -->
+    
+             <article class="news">
+                 <div class="container">
+                     <h2 class="margin-top-medium margin-bottom-medium heading-secondary--news">More news</h2>
+                     <div class="news__posts">
+                        <section class="post">
+                             <figure class="post__box">
+                                 <img srcset="img/postImage1.png 1x, img/postImage1300.png 2x" alt="Small wooden dock looking at the sea at sunset" class="post__img">
+                                 <div class="post__text-box">
+                                     <figcaption class="post__text">March</figcaption>
+                                     <h5 class="heading-quinary">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</h5>
+                                 </div>
+                             </figure>
+                         </section>
+                         <section class="post">
+                             <figure class="post__box">
+                                 <img srcset="img/postImage2.png 1x, img/postImage2300.png 2x" alt="Girl with white headphones around her neck on a freeway" class="post__img">
+                                 <div class="post__text-box">
+                                     <figcaption class="post__text">Jun</figcaption>
+                                     <h5 class="heading-quinary">Nemo enim ipsum voluptatem quia voluptas sit</h5>
+                                 </div>
+                             </figure>
+                         </section>
+                         <section class="post">
+                             <figure class="post__box">
+                                 <img srcset="img/postImage3.png 1x, img/postImage3300.png 2x"  alt="Mountains at sunset with a pink glare" class="post__img">
+                                 <div class="post__text-box">
+                                     <figcaption class="post__text">September</figcaption>
+                                     <h5 class="heading-quinary">Neque porro quisquam est, qui dolorem ipsum quia dolor</h5>
+                                 </div>
+                             </figure>
+                         </section>    
+                     </div>
+
+                     <div class="button-box margin-top-big margin-bottom-big">
+                         <button class="button button--outline center-block">See all media <img src="img/blue-right-arrow.png" alt="blue arrow pointing to the right" class="button__img"></button>
+                     </div>
+                 </div>
+             </article>
+     </main>
+     
+    <!-- FOOTER -->
+
+     <footer class="footer">
+         <div class="container">
+             <p class="footer__text">
+                 <small class="footer__text-box">&copy;Copyright <a href="#" class="footer__link">Terms</a> + <a href="#" class="footer__link">Privacy</a>
+                 </small>
+             </p>
+             <nav class="social-nav">
+                 <ul class="social-nav__list">
+                     <li class="social-nav__item">
+                         <a href="#" class="social-nav__link">
+                             <i class="social-nav__icon">
+                                 <img src="img/Facebook%20icon.png" alt="Facebook icon">
+                             </i>
+                         </a>
+                     </li>
+                     <li class="social-nav__item">
+                         <a href="#" class="social-nav__link">
+                             <i class="social-nav__icon">
+                                 <img src="img/Twitter%20icon.png" alt="Twitter icon">
+                             </i>
+                         </a>
+                     </li>
+                     <li class="social-nav__item">
+                         <a href="#" class="social-nav__link">
+                             <i class="social-nav__icon">
+                                 <img src="img/Youtube%20icon.png" alt="Youtube icon">
+                             </i>
+                         </a>
+                     </li>
+                 </ul>
+             </nav>
+         </div>
+     </footer>
+
+ <script src="js/script.js"></script>     
+</body>
+</html>

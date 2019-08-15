@@ -1,0 +1,16 @@
+[{
+		"img": "img/star%20burst.png 1x, img/star%20burst300.png 2x",
+		"description": "green star light background",
+		"class": "carousel__img"
+	},
+	{
+		"img": "img/circles.png 1x, img/circles300.png 2x",
+		"description": "green background with circles",
+		"class": "carousel__img"
+	},
+	{
+		"img": "img/green%20ocean.png 1x, img/green%20ocean300.png 2x",
+		"description": "green background with water drops",
+		"class": "carousel__img"
+	}
+]

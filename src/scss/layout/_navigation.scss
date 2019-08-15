@@ -1,0 +1,68 @@
+.navigation {
+    &__list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        height: 14rem;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(20px, auto));
+        grid-column-gap: 4rem;
+        text-align: right;
+        justify-content: center;
+        align-content: end;
+        line-height: 6; 
+        
+        @include respond(tab-port) {
+            display: none;
+        }
+    }
+    
+    &__link {
+        font-size: 1.8rem;
+        font-weight: 900;
+        padding-bottom: 4rem;
+        text-decoration: none;
+        color: $color-navy-blue;
+        border-bottom: 5px solid #fff;
+        transition: .3s;
+        
+        &:hover {
+            border-bottom: 5px solid $color-primary;
+        }
+        
+        &--active {
+            border-bottom: 5px solid $color-primary;
+        }
+    }
+    
+    &__toggler {
+        background: #fff;
+        border: 0;
+        outline: none;
+        display: none;
+        
+        @include respond (tab-port) {
+            display: block;
+        }
+    }
+}
+
+
+// social nav
+
+.social-nav {
+    &__list {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    &__item {
+        margin-right: 1.5rem;
+        
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}

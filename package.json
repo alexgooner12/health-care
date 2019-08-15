@@ -1,0 +1,22 @@
+{
+  "name": "health-care-international",
+  "version": "1.0.0",
+  "description": "Landing page for Health Care International",
+  "homepage":"https://github.com/alexgooner12/health-care-site/index.html",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Aleksandar Radulovic",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gh-pages": "^1.2.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify-es": "^1.0.4",
+    "gulp-yml": "^0.1.1"
+  }
+}

@@ -1,0 +1,39 @@
+@font-face {
+	src: url('../fonts/museosans-100-webfont.ttf') format("truetype"),
+         url('../fonts/museosans-300-webfont.ttf') format("truetype"),
+         url('../fonts/museosans_500-webfont.ttf') format("truetype"),
+         url('../fonts/museosans_700-webfont.ttf') format("truetype"),
+         url('../fonts/museosans_900-webfont.ttf') format("truetype");
+    font-family: "MuseoSans";
+}
+
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// MEDIA QUERIES FOR DIFFERENT SCREEN SIZES
+
+@mixin respond ($breakpoint) {
+    @if $breakpoint == small-phone {
+        @media only screen and (max-width: 18.75em) { @content }; // 350px
+    }
+    
+    @if $breakpoint == phone {
+        @media only screen and (max-width: 37.5em) { @content }; // 600px
+    }
+    
+    @if $breakpoint == tab-port {
+        @media only screen and(max-width: 56.25em) { @content }; //900px
+    }
+    
+    @if $breakpoint == tab-land {
+        @media only screen and (max-width: 75em) { @content }; //1200px
+    }
+    
+    @if $breakpoint == big-desktop {
+        @media only screen and (min-width: 112.5em) { @content }; //1800px
+    }
+}

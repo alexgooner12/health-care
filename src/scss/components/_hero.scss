@@ -1,0 +1,45 @@
+.hero {
+    background-image: url('../img/bg%20image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right -2rem;
+    width: 100%;
+    height: 65rem;
+    position: relative;
+    
+    @include respond(big-desktop) {
+        background-position: right -8.5rem;
+    }
+    
+    @includ respond(tab-land) {
+        background-position: right center;
+    }
+    
+    @include respond(tab-port) {
+        background-position: center;
+    }
+    
+    @include respond(phone) {
+        height: 35rem;
+        background-position: initial;
+    }
+    
+    @include respond(small-phone) {
+        height: 25rem;
+    }
+    
+    & .container {
+        @include flexCenter;
+        flex-direction: column;
+    }
+    
+}
+.overlay {
+      background-color: rgba(8, 31, 63, .5);
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+}
+
